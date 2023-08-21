@@ -8,7 +8,8 @@ public class Main {
         int attempts = 1; //in very first attempt will be zero
         Random rand = new Random();
         int randInt = rand.nextInt(100) + 1; //this will create random number. Every time the program will run create random number between 1-100
-        System.out.println(randInt);
+
+        System.out.println("Please Enter a Number");
         while (true) {
 
             int n = sc.nextInt();
